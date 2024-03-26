@@ -10,7 +10,13 @@ repos:
     hooks:
       - id: symfony-test
         name: Run tests 🚦
-        entry: bash -c "composer test"
+        entry: docker exec fitnessapi-php-1 bash -c "composer test"
+        always_run: true
+        pass_filenames: false
+        language: system
+      - id: phpstan
+        name: PHPStan analysis
+        entry: docker exec fitnessapi-php-1 bash -c "composer phpstan"
         always_run: true
         pass_filenames: false
         language: system
