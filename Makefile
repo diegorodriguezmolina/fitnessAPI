@@ -35,8 +35,7 @@ phpstan:
 	docker-compose exec php composer phpstan
 
 enter:
-	docker exec -it php bash
-
+	docker exec -it fitnessapi-php-1 bash
 
 ##
 ## 🚦️Tests
