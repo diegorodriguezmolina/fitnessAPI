@@ -32,7 +32,8 @@
         "symfony/string": "6.1.*",
         "symfony/web-link": "6.1.*",
         "symfony/yaml": "6.1.*",
-        "fzaninotto/faker": "^1.5"
+        "fzaninotto/faker": "^1.5",
+        "ramsey/uuid": "^4.7"
     },
     "require-dev": {
         "phpstan/phpstan": "*",

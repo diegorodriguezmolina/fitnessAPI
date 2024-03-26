@@ -4,6 +4,6 @@ declare(strict_types=1);
 
 namespace FitnessApi\Routine\Domain;
 
-use FitnessApi\Shared\Domain\StringValueObject;
+use FitnessApi\Shared\Domain\UuidValueObject;
 
-final class Id  extends StringValueObject {}
+final class Id  extends UuidValueObject {}
