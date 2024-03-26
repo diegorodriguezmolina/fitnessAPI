@@ -34,6 +34,9 @@ destroy-mysql:
 phpstan:
 	docker-compose exec php composer phpstan
 
+enter:
+	docker exec -it php bash
+
 
 ##
 ## 🚦️Tests
