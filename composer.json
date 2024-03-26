@@ -31,7 +31,8 @@
         "symfony/serializer": "6.1.*",
         "symfony/string": "6.1.*",
         "symfony/web-link": "6.1.*",
-        "symfony/yaml": "6.1.*"
+        "symfony/yaml": "6.1.*",
+        "fzaninotto/faker": "^1.5"
     },
     "require-dev": {
         "phpstan/phpstan": "*",
